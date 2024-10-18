@@ -22,6 +22,7 @@ namespace InputFormUi.Controls
     {
         public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(DetailCard));
         public static readonly DependencyProperty TimeProperty = DependencyProperty.Register("Time", typeof(string), typeof(DetailCard));
+        public static readonly DependencyProperty NumberProperty = DependencyProperty.Register("Number", typeof(string), typeof(DetailCard));
 
 
         public DetailCard()
