@@ -38,6 +38,12 @@ namespace InputFormUi.Controls
             set { SetValue(TimeProperty, value); }
         }
 
+        public string Number
+        {
+            get { return (string)GetValue(NumberProperty); }
+            set { SetValue(NumberProperty, value); }
+        }
+
         public DetailCard()
         {
             InitializeComponent();
