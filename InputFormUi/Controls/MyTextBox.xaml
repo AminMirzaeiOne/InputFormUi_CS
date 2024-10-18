@@ -14,6 +14,7 @@
         <TextBlock Margin="13 0" VerticalAlignment="Center" Foreground="#868686" IsHitTestVisible="False" Panel.ZIndex="1"
        Text="{Binding Path=Hint,ElementName=myTextbox}" FontSize="14"
        Visibility="{Binding ElementName=textBox, Path=Text.IsEmpty, Converter={StaticResource MyBoolToVisibilityConverter}}" />
-        
+        <TextBox Name="textBox"/>
+
     </StackPanel>
 </UserControl>
