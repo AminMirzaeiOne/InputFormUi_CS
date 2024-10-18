@@ -8,6 +8,11 @@
         xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
         Width="1150" Height="790" MinWidth="1150" MinHeight="790" WindowStyle="None"
         WindowStartupLocation="CenterScreen" AllowsTransparency="True" Background="Transparent">
+
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0" ResizeBorderThickness="5"/>
+    </WindowChrome.WindowChrome>
+
     <Grid>
         
     </Grid>
