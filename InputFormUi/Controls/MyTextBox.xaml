@@ -10,7 +10,7 @@
         <BooleanToVisibilityConverter x:Key="MyBoolToVisibilityConverter" />
     </UserControl.Resources>
 
-    <Grid>
+    <StackPanel>
             
-    </Grid>
+    </StackPanel>
 </UserControl>
