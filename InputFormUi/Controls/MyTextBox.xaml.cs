@@ -20,6 +20,9 @@ namespace InputFormUi.Controls
     /// </summary>
     public partial class MyTextBox : UserControl
     {
+        public static readonly DependencyProperty HintProperty = DependencyProperty.Register("Hint", typeof(string), typeof(MyTextBox));
+
+
         public MyTextBox()
         {
             InitializeComponent();
