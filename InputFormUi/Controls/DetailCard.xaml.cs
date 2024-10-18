@@ -50,6 +50,12 @@ namespace InputFormUi.Controls
             set { SetValue(ImageProperty, value); }
         }
 
+        public bool IsActive
+        {
+            get { return (bool)GetValue(IsActiveProperty); }
+            set { SetValue(IsActiveProperty, value); }
+        }
+
 
         public DetailCard()
         {
