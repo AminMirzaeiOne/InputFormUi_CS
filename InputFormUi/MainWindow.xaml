@@ -4,8 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InputFormUi"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        xmlns:uc="clr-namespace:InputFormUi.Controls"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        Width="1150" Height="790" MinWidth="1150" MinHeight="790" WindowStyle="None"
+        WindowStartupLocation="CenterScreen" AllowsTransparency="True" Background="Transparent">
     <Grid>
         
     </Grid>
