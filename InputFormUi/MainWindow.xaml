@@ -13,7 +13,7 @@
         <WindowChrome CaptionHeight="0" ResizeBorderThickness="5"/>
     </WindowChrome.WindowChrome>
 
-    <Grid>
+    <Border>
         
-    </Grid>
+    </Border>
 </Window>
