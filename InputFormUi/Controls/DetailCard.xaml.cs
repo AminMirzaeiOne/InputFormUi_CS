@@ -20,6 +20,9 @@ namespace InputFormUi.Controls
     /// </summary>
     public partial class DetailCard : UserControl
     {
+        public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(DetailCard));
+
+
         public DetailCard()
         {
             InitializeComponent();
