@@ -44,6 +44,13 @@ namespace InputFormUi.Controls
             set { SetValue(NumberProperty, value); }
         }
 
+        public ImageSource Image
+        {
+            get { return (ImageSource)GetValue(ImageProperty); }
+            set { SetValue(ImageProperty, value); }
+        }
+
+
         public DetailCard()
         {
             InitializeComponent();
