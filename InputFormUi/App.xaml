@@ -57,5 +57,26 @@
             </Style.Triggers>
         </Style>
 
+        <Style x:Key="secondaryButton" TargetType="Button" BasedOn="{StaticResource mainButton}">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="#979797" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="7" BorderThickness="0.8" BorderBrush="#b9b9b9">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 1"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#d0d0d0" />
+                    <Setter Property="Foreground" Value="#ffffff" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
     </Application.Resources>
 </Application>
