@@ -29,6 +29,12 @@ namespace InputFormUi.Controls
             set { SetValue(HintProperty, value); }
         }
 
+        public string Caption
+        {
+            get { return (string)GetValue(CaptionProperty); }
+            set { SetValue(CaptionProperty, value); }
+        }
+
         public MyTextBox()
         {
             InitializeComponent();
