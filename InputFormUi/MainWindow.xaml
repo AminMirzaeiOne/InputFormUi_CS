@@ -75,6 +75,95 @@
                 </StackPanel>
             </Border>
 
+            <!--Left Section-->
+            <Border Grid.Row="1" Background="#F2F5F8" CornerRadius="0 0 0 5">
+                <Grid VerticalAlignment="Center" Margin="70 0 -60 0">
+                    <!--Background Layers-->
+                    <Border CornerRadius="7 0 0 0" Background="#F7F8FB" Height="50" Margin="40 -30 60 0" VerticalAlignment="Top"/>
+                    <Border CornerRadius="7 0 0 0" Background="#FDFDFD" Height="50" Margin="20 -15 60 0" VerticalAlignment="Top"/>
+
+                    <!--Main Layer-->
+                    <Border CornerRadius="7" Background="#ffffff" >
+                        <Border.Effect>
+                            <DropShadowEffect Direction="-130" BlurRadius="30" ShadowDepth="5" Opacity="0.1"/>
+                        </Border.Effect>
+
+                        <Grid Margin="20 0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <!--Form Title-->
+                            <StackPanel Orientation="Horizontal" Margin="20 20 0 0">
+                                <Border CornerRadius="50" BorderThickness="1.5" BorderBrush="#EFEFEF">
+                                    <Ellipse Width="40" Height="40">
+                                        <Ellipse.Fill>
+                                            <ImageBrush ImageSource="/Images/q1.png"/>
+                                        </Ellipse.Fill>
+                                    </Ellipse>
+                                </Border>
+
+                                <TextBlock Text="Business Details" Foreground="#374655" FontSize="18" Margin="15 0 0 0" VerticalAlignment="Center"/>
+                            </StackPanel>
+
+                            <!--Form Percentage-->
+                            <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Right" Margin="0 20 20 0">
+                                <Border Width="30" Height="30" CornerRadius="50" BorderThickness="3" ClipToBounds="True">
+                                    <Border.BorderBrush>
+                                        <LinearGradientBrush>
+                                            <GradientStop Color="#4880FF" Offset="0"/>
+                                            <GradientStop Color="#EFEFEF" Offset="0.4"/>
+                                        </LinearGradientBrush>
+                                    </Border.BorderBrush>
+                                </Border>
+
+                                <StackPanel Margin="10 0 0 0" VerticalAlignment="Center">
+                                    <TextBlock Text="10%" Foreground="#4880FF" FontSize="14" FontWeight="SemiBold" />
+                                    <TextBlock Text="Profile Completion" Foreground="#97A5B4" Margin="0 2 0 0"/>
+                                </StackPanel>
+                            </StackPanel>
+
+                            <Separator Grid.Row="1" Grid.ColumnSpan="2" Height="0.7" Margin="-20 20 -20 20" Background="#E1E6EB"/>
+
+                            <!--Inputs-->
+                            <uc:MyTextBox Grid.Column="0" Grid.Row="2" Caption="Legal Name of Business" Hint="Enter your legal name"/>
+                            <uc:MyTextBox Grid.Column="0" Grid.Row="3" Caption="Notification Email" Hint="Enter your email"/>
+                            <uc:MyTextBox Grid.Column="0" Grid.Row="4" Caption="Phone" Hint="Enter your phone"/>
+                            <uc:MyTextBox Grid.Column="0" Grid.Row="5" Caption="Address (Line 1)" Hint="Enter your address"/>
+                            <uc:MyTextBox Grid.Column="1" Grid.Row="2" Caption="Business Name" Hint="Enter your business name"/>
+                            <uc:MyTextBox Grid.Column="1" Grid.Row="3" Caption="Account Email" Hint="Enter your email"/>
+                            <uc:MyTextBox Grid.Column="1" Grid.Row="4" Caption="Currency" Hint="Enter your currnecy"/>
+                            <uc:MyTextBox Grid.Column="1" Grid.Row="5" Caption="Address (Line 2)" Hint="Enter your address"/>
+
+                            <!--Form Bottom Background-->
+                            <Border Grid.Row="6" Grid.ColumnSpan="2" Height="80" Background="#f6f6f6" CornerRadius="0 0 10 10" Margin="-20 40 -20 0"/>
+
+                            <!--Main Button-->
+                            <Button Grid.Column="1" Grid.Row="6" Content="Save Next" HorizontalAlignment="Right" Margin="0 40 20 0" Style="{StaticResource mainButton}">
+                                <Button.Effect>
+                                    <DropShadowEffect Direction="-120" BlurRadius="10" Opacity="0.3" ShadowDepth="5" Color="#4880FF"/>
+                                </Button.Effect>
+                            </Button>
+
+                            <!--Secondary Button-->
+                            <Button Grid.Row="6" Content="Back" HorizontalAlignment="Left" Margin="20 40 0 0" Style="{StaticResource secondaryButton}" Width="150"/>
+
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Border>
+
 
         </Grid>
     </Border>
