@@ -13,7 +13,7 @@
         <WindowChrome CaptionHeight="0" ResizeBorderThickness="5"/>
     </WindowChrome.WindowChrome>
 
-    <Border>
+    <Border CornerRadius="5" Background="#ffffff" MouseDown="Grid_MouseDown" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
         
     </Border>
 </Window>
