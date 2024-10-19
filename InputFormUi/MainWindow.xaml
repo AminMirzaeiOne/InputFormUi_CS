@@ -25,6 +25,11 @@
                 <ColumnDefinition Width="400"/>
             </Grid.ColumnDefinitions>
 
+            <!--App Title-->
+            <TextBlock Text="Design App" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="55 0 0 2" FontSize="16" FontWeight="SemiBold" Foreground="#4880FF"/>
+            <Icon:PackIconMaterial Kind="Message" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="33 0 0 4" Width="14" Height="14" Foreground="#FF9D00"/>
+            <Icon:PackIconMaterial Kind="Message" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30 4 0 0" Width="14" Height="14" Foreground="#4880FF"/>
+
         </Grid>
     </Border>
 </Window>
