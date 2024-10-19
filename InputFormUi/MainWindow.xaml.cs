@@ -28,6 +28,14 @@ namespace InputFormUi
             }
         }
 
+        private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ClickCount == 2)
+            {
+                this.WindowState = WindowState.Normal;
+            }
+        }
+
 
         public MainWindow()
         {
