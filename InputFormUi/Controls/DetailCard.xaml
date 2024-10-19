@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:InputFormUi.Controls"
              Name="detailCard" Foreground="#ffffff">
-    <Border  Background="#598BFF" CornerRadius="7" Margin="30 4" BorderThickness="1">
+    <Border  Background="#ff405c" CornerRadius="7" Margin="30 4" BorderThickness="1">
         <Border.Style>
             <Style TargetType="Border">
                 <Setter Property="BorderBrush" Value="Transparent" />
@@ -42,7 +42,7 @@
                 <TextBlock Text="{Binding ElementName=detailCard,Path=Time}" FontSize="11" FontWeight="Light" Margin="0 3 0 0"/>
             </StackPanel>
 
-            <Border Grid.Column="2" CornerRadius="50" Width="25" Height="25" Background="#4880FF">
+            <Border Grid.Column="2" CornerRadius="50" Width="25" Height="25" Background="DarkRed">
                 <TextBlock Text="{Binding ElementName=detailCard,Path=Number}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
             </Border>
 

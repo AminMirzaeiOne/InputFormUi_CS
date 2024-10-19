@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:InputFormUi"
         xmlns:uc="clr-namespace:InputFormUi.Controls"
         xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
-        Width="1150" Height="790" MinWidth="1150" MinHeight="790" WindowStyle="None"
+        Width="1150" Height="790" WindowStyle="None"
         WindowStartupLocation="CenterScreen" AllowsTransparency="True" Background="Transparent">
 
     <WindowChrome.WindowChrome>
@@ -26,7 +26,7 @@
             </Grid.ColumnDefinitions>
 
             <!--App Title-->
-            <TextBlock Text="Design App" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="55 0 0 2" FontSize="16" FontWeight="SemiBold" Foreground="#4880FF"/>
+            <TextBlock Text="Design App" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="55 0 0 2" FontSize="16" FontWeight="SemiBold" Foreground="Crimson"/>
             <Icon:PackIconMaterial Kind="Message" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="33 0 0 4" Width="14" Height="14" Foreground="#FF9D00"/>
             <Icon:PackIconMaterial Kind="Message" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30 4 0 0" Width="14" Height="14" Foreground="#4880FF"/>
 
@@ -48,7 +48,7 @@
             </StackPanel>
 
             <!--Right Section-->
-            <Border Grid.Row="1" Grid.Column="1" Background="#4880FF" CornerRadius="0 0 5 0">
+            <Border Grid.Row="1" Grid.Column="1" Background="Crimson" CornerRadius="0 0 5 0">
                 <StackPanel Margin="60 0 10 0">
 
                     <!--Main Image-->
@@ -122,14 +122,14 @@
                                 <Border Width="30" Height="30" CornerRadius="50" BorderThickness="3" ClipToBounds="True">
                                     <Border.BorderBrush>
                                         <LinearGradientBrush>
-                                            <GradientStop Color="#4880FF" Offset="0"/>
+                                            <GradientStop Color="Crimson" Offset="0"/>
                                             <GradientStop Color="#EFEFEF" Offset="0.4"/>
                                         </LinearGradientBrush>
                                     </Border.BorderBrush>
                                 </Border>
 
                                 <StackPanel Margin="10 0 0 0" VerticalAlignment="Center">
-                                    <TextBlock Text="10%" Foreground="#4880FF" FontSize="14" FontWeight="SemiBold" />
+                                    <TextBlock Text="10%" Foreground="Crimson" FontSize="14" FontWeight="SemiBold" />
                                     <TextBlock Text="Profile Completion" Foreground="#97A5B4" Margin="0 2 0 0"/>
                                 </StackPanel>
                             </StackPanel>
@@ -152,7 +152,7 @@
                             <!--Main Button-->
                             <Button Grid.Column="1" Grid.Row="6" Content="Save Next" HorizontalAlignment="Right" Margin="0 40 20 0" Style="{StaticResource mainButton}">
                                 <Button.Effect>
-                                    <DropShadowEffect Direction="-120" BlurRadius="10" Opacity="0.3" ShadowDepth="5" Color="#4880FF"/>
+                                    <DropShadowEffect Direction="-120" BlurRadius="10" Opacity="0.3" ShadowDepth="5" Color="Crimson"/>
                                 </Button.Effect>
                             </Button>
 
