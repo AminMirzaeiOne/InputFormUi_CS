@@ -19,8 +19,7 @@ Designing the user interface of a data entry form in WPF<br />
 2 - Choose from the menu options<br />
 
 <h2>📷 Screenshots</h2>
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/1d2b1f4f-df44-4fd1-bff0-3d80ee86cb72">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/ffe699be-3cdf-4a45-bdc8-17de7abdfc65">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/0b5794b7-f15e-4cad-9581-09ab8045bec5">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/584d2856-7ead-4f15-8b30-b80feaec2d23">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/23e7fcdb-b3ea-44bf-9eec-4e67af0e864c">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/d7ebc4bd-ea08-4e52-a950-cf75da2ea4cb">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/beaa62e2-9a9d-4bc1-bb13-765611f7dc1b">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/37dcf04e-22aa-4903-bbaa-3722f94a674d">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/9d7da28b-1cb8-4e0e-85df-0860f25b534f">
