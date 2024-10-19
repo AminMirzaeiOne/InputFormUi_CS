@@ -15,7 +15,10 @@
 
     <Border CornerRadius="5" Background="#ffffff" MouseDown="Grid_MouseDown" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
         <Grid>
-            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
         </Grid>
     </Border>
 </Window>
