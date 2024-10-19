@@ -47,6 +47,34 @@
                 </Button>
             </StackPanel>
 
+            <!--Right Section-->
+            <Border Grid.Row="1" Grid.Column="1" Background="#4880FF" CornerRadius="0 0 5 0">
+                <StackPanel Margin="60 0 10 0">
+
+                    <!--Main Image-->
+                    <Border CornerRadius="100" Width="85" Height="85" Background="#ffffff" Margin="15 40 20 20">
+                        <Ellipse Width="80" Height="80">
+                            <Ellipse.Fill>
+                                <ImageBrush ImageSource="/Images/q1.png" Stretch="UniformToFill"/>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                    </Border>
+
+                    <!--Section Description-->
+                    <TextBlock Foreground="#ffffff" FontWeight="SemiBold" TextAlignment="Center" FontSize="20" Text="Business Details"/>
+                    <TextBlock TextWrapping="Wrap" Foreground="#E6E8EC" FontSize="13" Margin="40 15 40 20" LineHeight="24" FontWeight="Light" TextAlignment="Center" Text="Manage your business info here. Please verify you have completed below mentioned"/>
+
+                    <!--Cards-->
+                    <uc:DetailCard Title="Payment Gateways" Time="3 min" Number="1" Image="/Images/q1.png" IsActive="True"/>
+                    <uc:DetailCard Title="Integration" Time="5 min" Number="2" Image="/Images/q2.png"/>
+                    <uc:DetailCard Title="Tax" Time="2 min" Number="3" Image="/Images/q3.jpg"/>
+                    <uc:DetailCard Title="Policies" Time="1 min" Number="4" Image="/Images/q4.jpg"/>
+                    <uc:DetailCard Title="Shipping" Time="1 min" Number="5" Image="/Images/q5.jpg"/>
+                    <!--<uc:DetailCard Title="Notifications" Time="2 min" Number="6" Image="/Images/p6.jpg"/>-->
+
+                </StackPanel>
+            </Border>
+
 
         </Grid>
     </Border>
